@@ -1,0 +1,49 @@
+{
+  "functionsRoot": ".",
+  "functions": [
+    {
+      "name": "default",
+      "directory": "./",
+      "target": "main"
+    },
+    {
+      "name": "echo",
+      "directory": "./echo",
+      "source": "echo.js"
+    },
+    {
+      "name": "sum",
+      "directory": "./sum"
+    },
+    {
+      "name": "ws",
+      "directory": "ws"
+    },
+    {
+      "name": "sse",
+      "directory": "sse"
+    }
+  ],
+  "routes": [
+    {
+      "functionName": "sum",
+      "path": "/sum"
+    },
+    {
+      "functionName": "echo",
+      "path": "/echo"
+    },
+    {
+      "functionName": "ws",
+      "path": "/ws"
+    },
+    {
+      "functionName": "sse",
+      "path": "/sse"
+    },
+    {
+      "functionName": "default",
+      "path": "/"
+    }
+  ]
+}
