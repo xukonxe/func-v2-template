@@ -3,47 +3,36 @@
   "functions": [
     {
       "name": "default",
-      "directory": "./",
-      "target": "main"
+      "directory": "./cloudrunfunctions",
+      "target": "main",
+      "triggerPath": "/"
     },
     {
       "name": "echo",
-      "directory": "./echo",
-      "source": "echo.js"
+      "directory": "./cloudrunfunctions/echo",
+      "source": "echo.js",
+      "triggerPath": "/echo"
     },
     {
       "name": "sum",
-      "directory": "./sum"
+      "directory": "./cloudrunfunctions/sum",
+      "triggerPath": "/sum"
     },
     {
       "name": "ws",
-      "directory": "ws"
+      "directory": "./cloudrunfunctions/ws",
+      "triggerPath": "/ws"
     },
     {
       "name": "sse",
-      "directory": "sse"
+      "directory": "./cloudrunfunctions/sse",
+      "triggerPath": "/sse"
     }
   ],
   "routes": [
     {
-      "functionName": "sum",
-      "path": "/sum"
-    },
-    {
       "functionName": "echo",
-      "path": "/echo"
-    },
-    {
-      "functionName": "ws",
-      "path": "/ws"
-    },
-    {
-      "functionName": "sse",
-      "path": "/sse"
-    },
-    {
-      "functionName": "default",
-      "path": "/"
+      "path": "/call-echo"
     }
   ]
 }
