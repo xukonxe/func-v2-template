@@ -1,5 +1,21 @@
 # 云函数2.0示例代码
 
+## 如何运行代码？
+
+`Git Clone` 代码到本地后，可通过 `pnpm install` 安装依赖
+
+通过如下命令允许云函数
+
+```sh
+npx tcb-ff
+```
+
+然后通过浏览器访问 `http://localhost:3000/` 即可查看示例代码运行结果。
+
+## 如何调试代码？
+
+示例代码中已经包含了 `VSCode` 的调试配置，可在 `Run And Debug` 界面选择 `launch-tcb-ff-local` 即可允许云函数并进行断点调试。
+
 ## 文件说明
 
 * `cloudbase-functions.json` 多函数配置文件，描述了函数的名称、入口文件、访问路径等信息
@@ -19,7 +35,7 @@
 压缩命令示例：
 
 ```sh
-zip -x '/*.git/*' -x '.gitignore' -x '.DS_Store' -r code.zip .
+zip -x '/*.git/*' -x '.gitignore' -x '.DS_Store' -x 'node_modules' -r code.zip .
 ```
 
 ## 相关链接
