@@ -1,5 +1,9 @@
 # 云函数2.0示例代码
 
+该示例代码演示如何通过 `TypeScript` 编写 `云函数2.0` 项目代码。包括项目结构示例，以及调试。
+
+TypeScript 示例代码见：<https://github.com/TencentCloudBase/cloudbase-examples/tree/master/cloudrunfunctions/ts-multiple-functions>
+
 ## 如何运行代码？
 
 `Git Clone` 代码到本地后，可通过 `pnpm install` 安装依赖
@@ -15,6 +19,8 @@ npx tcb-ff
 ## 如何调试代码？
 
 示例代码中已经包含了 `VSCode` 的调试配置，可在 `Run And Debug` 界面选择 `launch-tcb-ff-local` 即可允许云函数并进行断点调试。
+
+如何调试代码可参考：<https://docs.cloudbase.net/cbrf/how-to-debug-functions-code#%E8%B0%83%E8%AF%95-javascript-%E4%BB%A3%E7%A0%81>
 
 ## 文件说明
 
