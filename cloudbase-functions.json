@@ -1,31 +1,31 @@
 {
-  "functionsRoot": ".",
+  "functionsRoot": "./cloudrunfunctions",
   "functions": [
     {
       "name": "default",
-      "directory": "./cloudrunfunctions",
+      "directory": ".",
       "target": "main",
       "triggerPath": "/"
     },
     {
       "name": "echo",
-      "directory": "./cloudrunfunctions/echo",
+      "directory": "echo",
       "source": "echo.js",
       "triggerPath": "/echo"
     },
     {
       "name": "sum",
-      "directory": "./cloudrunfunctions/sum",
+      "directory": "sum",
       "triggerPath": "/sum"
     },
     {
       "name": "ws",
-      "directory": "./cloudrunfunctions/ws",
+      "directory": "ws",
       "triggerPath": "/ws"
     },
     {
       "name": "sse",
-      "directory": "./cloudrunfunctions/sse",
+      "directory": "sse",
       "triggerPath": "/sse"
     }
   ],
