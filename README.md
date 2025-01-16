@@ -41,7 +41,7 @@ npx tcb-ff
 压缩命令示例：
 
 ```sh
-zip -x '/*.git/*' -x '.gitignore' -x '.DS_Store' -x 'node_modules' -r code.zip .
+zip -x '/*.git/*' -x '.gitignore' -x '.DS_Store' -x 'node_modules/*' -r code.zip .
 ```
 
 ## 相关链接
