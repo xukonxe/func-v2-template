@@ -2,7 +2,11 @@
 
 该示例代码演示如何通过 `TypeScript` 编写 `云函数2.0` 项目代码。包括项目结构示例，以及调试。
 
-TypeScript 示例代码见：<https://github.com/TencentCloudBase/cloudbase-examples/tree/master/cloudrunfunctions/ts-multiple-functions>
+> 注意：该示例项目主要展示一个完整的云函数，即，整个项目从根目录开始即为一个云函数。
+> 实际项目中会包括多个云函数，以及项目中其他部分的项目代码，例如项目前端代码。
+> 所以，在一个实际的项目中，该函数代码通常对应 `项目根路径/cloudrunfunctions/func-v2-template` 目录。
+
+更完整的示例项目代码可参考：[TypeScript 示例代码](https://github.com/TencentCloudBase/cloudbase-examples/tree/master/cloudrunfunctions/ts-multiple-functions)
 
 ## 如何运行代码？
 
