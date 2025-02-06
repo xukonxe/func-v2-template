@@ -27,6 +27,11 @@
       "name": "sse",
       "directory": "sse",
       "triggerPath": "/sse"
+    },
+    {
+      "name": "sse-openai",
+      "directory": "sse-openai",
+      "triggerPath": "/sse-openai"
     }
   ],
   "routes": [

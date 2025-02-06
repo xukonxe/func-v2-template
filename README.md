@@ -33,6 +33,7 @@ npx tcb-ff
 * `cloudrunfunctions/sum` 多文件函数示例
 * `cloudrunfunctions/echo` 回显函数示例
 * `cloudrunfunctions/sse` 实现 `SSE` 的函数示例
+* `cloudrunfunctions/sse-openai` 实现 `sse+openai` 的函数示例
 * `cloudrunfunctions/ws` 实现 `WebSocket` 的函数示例
 * `package.json` node.js 项目依赖管理描述文件
 
