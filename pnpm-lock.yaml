@@ -7,6 +7,13 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@types/ws':
+        specifier: ^8.5.14
+        version: 8.5.14
+      ws:
+        specifier: ^8.18.0
+        version: 8.18.0
     devDependencies:
       '@cloudbase/functions-framework':
         specifier: ^1.3.0
@@ -14,6 +21,9 @@ importers:
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.10.5)(typescript@5.7.3)
+      typescript:
+        specifier: ^5.7.3
+        version: 5.7.3
 
 packages:
 
@@ -136,8 +146,8 @@ packages:
   '@types/triple-beam@1.3.5':
     resolution: {integrity: sha512-6WaYesThRMCl19iryMYP7/x2OVgCtbIVflDGFpWnb9irXI3UjYE4AzmYuiUKY1AJstGijoY+MgUszMgRxIYTYw==}
 
-  '@types/ws@8.5.13':
-    resolution: {integrity: sha512-osM/gWBTPKgHV8XkTunnegTRIsvF6owmf5w+JtAfOw472dptdm0dlGv4xCt6GwQRcC2XVOvvRE/0bAoQcL2QkA==}
+  '@types/ws@8.5.14':
+    resolution: {integrity: sha512-bd/YFLW+URhBzMXurx7lWByOu+xzU9+kb3RboOteXYDfW+tr+JZa99OyNmPINEGB/ahzKrEuc8rcv4gnpJmxTw==}
 
   accepts@1.3.8:
     resolution: {integrity: sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==}
@@ -864,7 +874,7 @@ snapshots:
   '@cloudbase/functions-framework@1.3.0':
     dependencies:
       '@cloudbase/functions-typings': 1.0.0-beta.4
-      '@types/ws': 8.5.13
+      '@types/ws': 8.5.14
       ajv: 8.17.1
       koa: 2.15.3
       koa-body: 6.0.1
@@ -1009,7 +1019,7 @@ snapshots:
 
   '@types/triple-beam@1.3.5': {}
 
-  '@types/ws@8.5.13':
+  '@types/ws@8.5.14':
     dependencies:
       '@types/node': 22.10.5
 
