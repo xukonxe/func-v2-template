@@ -28,6 +28,7 @@ export async function main (event, context) {
     for await (const chunk of stream) {
       sse.send({data: JSON.stringify(chunk)})
     }
+    sse.end()
   }
 
   return ''
