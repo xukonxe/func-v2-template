@@ -29,16 +29,16 @@ npx tcb-ff
 ## 文件说明
 
 * `cloudbase-functions.json` 多函数配置文件，描述了函数的名称、入口文件、访问路径等信息
-* `cloudrunfunctions/common` 公共模块，名称是任意的
-* `cloudrunfunctions/echo` 回显函数示例
-* `cloudrunfunctions/sse` 实现 `SSE` 的函数示例
-* `cloudrunfunctions/sse-openai` 实现 `sse+openai` 的函数示例
-* `cloudrunfunctions/ws` 实现 `WebSocket` 的函数示例
+* `src/common` 公共模块，名称是任意的
+* `src/echo` 回显函数示例
+* `src/sse` 实现 `SSE` 的函数示例
+* `src/sse-openai` 实现 `sse+openai` 的函数示例
+* `src/ws` 实现 `WebSocket` 的函数示例
 * `package.json` node.js 项目依赖管理描述文件
 
-> 注意：因为整个项目为一个函数，项目的依赖需要安装到项目根路径下，即安装到 `项目根路径/package.json` 里面，不要安装到 `cloudrunfunctions` 里面的子函数里面。
+> 注意：因为整个项目为一个函数，项目的依赖需要安装到项目根路径下，即安装到 `项目根路径/package.json` 里面，不要安装到 `src` 里面的子函数里面。
 
-Q：为什么 `cloudrunfunctions/ws` 等函数目录中存在 `package.json` 文件？
+Q：为什么 `src/ws` 等函数目录中存在 `package.json` 文件？
 
 主要因为需要 [`type=module|commonjs`](https://nodejs.org/api/packages.html#type) 字段以支持加载不同类型的 `node.js` 模块。
 

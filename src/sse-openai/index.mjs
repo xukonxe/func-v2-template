@@ -1,8 +1,8 @@
 import OpenAI from 'openai'
 
-const baseURL = 'replace-with-your-baseURL'
-const apiKey = 'replace-with-your-apiKey'
-const model = 'replace-with-your-modelName'
+const baseURL = 'https://api.moonshot.cn/v1'
+const apiKey = 'sk-l74oSGjCKD6CO394MsvOGnL2xBsFDsBl83hmNftopAMPOnpB'
+const model = 'moonshot-v1-8k'
 
 const client = new OpenAI({
   baseURL: baseURL,
