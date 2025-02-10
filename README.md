@@ -30,7 +30,6 @@ npx tcb-ff
 
 * `cloudbase-functions.json` 多函数配置文件，描述了函数的名称、入口文件、访问路径等信息
 * `cloudrunfunctions/common` 公共模块，名称是任意的
-* `cloudrunfunctions/sum` 多文件函数示例
 * `cloudrunfunctions/echo` 回显函数示例
 * `cloudrunfunctions/sse` 实现 `SSE` 的函数示例
 * `cloudrunfunctions/sse-openai` 实现 `sse+openai` 的函数示例

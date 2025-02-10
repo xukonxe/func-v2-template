@@ -14,11 +14,6 @@
       "triggerPath": "/echo"
     },
     {
-      "name": "sum",
-      "directory": "sum",
-      "triggerPath": "/sum"
-    },
-    {
       "name": "ws",
       "directory": "ws",
       "triggerPath": "/ws"
