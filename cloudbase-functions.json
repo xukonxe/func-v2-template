@@ -8,6 +8,11 @@
       "triggerPath": "/"
     },
     {
+      "name": "cloudbase-nodesdk",
+      "directory": "cloudbase-nodesdk",
+      "triggerPath": "/cloudbase-nodesdk"
+    },
+    {
       "name": "echo",
       "directory": "echo",
       "source": "echo.js",
