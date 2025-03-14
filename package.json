@@ -15,7 +15,7 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "@cloudbase/node-sdk": "^3.4.0",
+    "@cloudbase/node-sdk": "^3.7.0",
     "@types/ws": "^8.5.14",
     "openai": "^4.83.0",
     "ws": "^8.18.0"

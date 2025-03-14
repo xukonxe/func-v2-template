@@ -19,6 +19,12 @@
       "triggerPath": "/echo"
     },
     {
+      "name": "log",
+      "directory": "log",
+      "source": "index.js",
+      "triggerPath": "/log"
+    },
+    {
       "name": "ws",
       "directory": "ws",
       "triggerPath": "/ws"
