@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@cloudbase/node-sdk':
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.0
+        version: 3.7.0
       '@types/ws':
         specifier: ^8.5.14
         version: 8.5.14
@@ -53,8 +53,8 @@ packages:
     resolution: {integrity: sha512-3v4MEJRoPyb0Uc1Zae35IgAk1L7wH4kuWGr9Z3DYHndSm+i7clxybpKQdFTMStCVF0qBIP/wR/gt43OTkrC7jQ==}
     engines: {node: '>=18.0.0'}
 
-  '@cloudbase/node-sdk@3.4.0':
-    resolution: {integrity: sha512-zXzM0+WJOpwCYliHNjq/6StkWE/5ImQC71085NdCfBeY0X2/X3fvLzfkFAMl0KYu+7Jais7IoGCujv8/JdCXKQ==}
+  '@cloudbase/node-sdk@3.7.0':
+    resolution: {integrity: sha512-9Y8013fdkSnX7U7HHS5ZecVIrfYF/V42kCKu5rXAKwEWOWCKZ5o7PZSy7dI5x2UnUE5JlEHHTuTfSscjq+omfQ==}
     engines: {node: '>=12'}
 
   '@cloudbase/signature-nodejs@2.0.0':
@@ -1123,7 +1123,7 @@ snapshots:
 
   '@cloudbase/functions-typings@1.0.0-beta.4': {}
 
-  '@cloudbase/node-sdk@3.4.0':
+  '@cloudbase/node-sdk@3.7.0':
     dependencies:
       '@cloudbase/database': 1.4.2
       '@cloudbase/signature-nodejs': 2.0.0

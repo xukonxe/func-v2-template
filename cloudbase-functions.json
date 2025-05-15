@@ -38,6 +38,36 @@
       "name": "sse-openai",
       "directory": "sse-openai",
       "triggerPath": "/sse-openai"
+    },
+    {
+      "name": "helloworld1",
+      "directory": "helloworld1",
+      "source": "index.js",
+      "triggerPath": "/helloworld1"
+    },
+    {
+      "name": "helloworld2",
+      "directory": "helloworld2",
+      "source": "index.js",
+      "triggerPath": "/helloworld2"
+    },
+    {
+      "name": "helloworld3",
+      "directory": "helloworld3",
+      "source": "index.js",
+      "triggerPath": "/helloworld3"
+    },
+    {
+      "name": "helloworld4",
+      "directory": "helloworld4",
+      "source": "index.js",
+      "triggerPath": "/helloworld4"
+    },
+    {
+      "name": "helloworld5",
+      "directory": "helloworld5",
+      "source": "index.js",
+      "triggerPath": "/helloworld5"
     }
   ],
   "routes": [
